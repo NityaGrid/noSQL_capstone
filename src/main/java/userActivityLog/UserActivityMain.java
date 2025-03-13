@@ -13,21 +13,21 @@ public class UserActivityMain {
         Instant baseTime = Instant.now();
 
         Object[][] activities = {
-                {"login", 0L},
-                {"view_dashboard", -30L},
-                {"update_profile_picture", -90L},
-                {"send_message", -120L},
-                {"like_post", -150L},
-                {"comment_on_post", -180L},
-                {"view_notifications", -210L},
-                {"logout", -240L},
-                {"purchase_item", -300L},
-                {"add_friends", -360L},
-                {"follow_user", -420L},
-                {"update_settings", -480L},
-                {"search_content", -540L},
-                {"change_password", -600L},
-                {"enable_two_factor_auth", -660L}
+                {"user_login", 0L},
+                {"access_dashboard", -30L},
+                {"change_profile_photo", -90L},
+                {"send_chat_message", -120L},
+                {"react_to_post", -150L},
+                {"post_comment", -180L},
+                {"check_notifications", -210L},
+                {"user_logout", -240L},
+                {"make_purchase", -300L},
+                {"add_new_friend", -360L},
+                {"follow_an_account", -420L},
+                {"modify_settings", -480L},
+                {"find_content", -540L},
+                {"reset_password", -600L},
+                {"activate_2fa", -660L}
         };
 
 
